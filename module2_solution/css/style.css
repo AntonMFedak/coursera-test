@@ -1,1 +1,114 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
 
+body {
+	font-family: Cambria;
+	margin: 10px;
+	font-size: 125%;
+}
+
+h1 {
+	font-weight: bold;
+	text-align: center;
+	margin: 25px 20px 25px 20px;
+}
+
+#menu_section {
+	position: relative;
+	margin: 10px;
+	padding-bottom: 25px;
+	border: 1px solid black;
+	background-color: #D8D7D5;
+}
+
+#p1 {
+	position: absolute;
+	right: -1px;
+	top: -1px;
+	background-color: #F9AB9B;
+	font-weight: bold;
+	font-size: 1.25em;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 15px;
+	padding-left: 15px;
+	width: 125px;
+	height: 40px;
+	border: 1px solid black;
+}
+
+#p2 {
+	position: absolute;
+	right: -1px;
+	top: -1px;
+	background-color: #C60806;
+	color:  white;
+	font-weight: bold;
+	font-size: 1.25em;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 15px;
+	padding-left: 15px;
+	width: 125px;
+	height: 40px;
+	border: 1px solid black;
+}
+
+#p3 {
+	position: absolute;
+	right: -1px;
+	top: -1px;
+	background-color: #E6C029;
+	font-weight: bold;
+	font-size: 1.25em;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 15px;
+	padding-left: 15px;
+	width: 125px;
+	height: 40px;
+	border: 1px solid black;
+}
+
+#p4 {
+	position: relative;
+	top: 30px;
+	padding: 15px;
+}
+
+.row {
+	width: 100%;
+}
+
+/*** LAYOUT FOR DESKTOP ***/
+@media (min-width: 992px) {
+	.col-lg-4 {
+		float: left;
+		width: 33.33%;
+	}	
+}
+
+/*** LAYOUT FOR TABLET ***/
+@media (min-width: 768px) and (max-width: 991.99px) {
+	.col-md-6 {
+		float: left;
+		width: 50%;
+	}
+	.col-md-12 {
+		float: left;
+		width: 100%;
+	}
+}
+
+/*** LAYOUT FOR MOBILE ***/
+@media (max-width: 767.99px) {
+	.col-sm-12 {
+		width: 100%;
+	}
+}
