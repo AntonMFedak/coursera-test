@@ -1,1 +1,86 @@
+/**** STTLING OF NAVIGATION BAR ***/
+#navbar-header {
+	background-color: #99E3FA;
+	border: 1px solid black;
+	border-radius: 0;
+	margin-bottom: 0;
+}
+/* Brand Text */
+#navbar-header .navbar-brand {
+	font-weight: bold;
+	color: black;
+	text-transform: none;
+}
+/* Toggle Menu Button */
+#navbar-header .navbar-toggle {
+	border: 2px solid yellow;
+}
+#navbar-header .navbar-toggle:focus, #navbar-header .navbar-toggle:hover {
+	background-color: yellow;
+}
+/* Toogle Menu Body */
+#navbar-collapse ul {
+	background-color: yellow;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+#navbar-collapse ul a {
+	color: black;
+	font-weight: bold;
+	text-transform: none;
+}
+#navbar-collapse li hr {
+	margin: 2px auto 2px;
+	width: 95%;
+	border: 1px solid #99E3FA;
+}
 
+/**** STYLING OF MAIN BODY ****/
+h1 {
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+}
+#chicken-menu p:nth-child(1) {
+	font-size: 2em;
+	font-weight: bold;
+	color: yellow;
+	background-color: #99E3FA;
+	margin: 0 25px 0 25px;
+	padding: 0 15px 0 15px;
+	text-shadow: 1px 1px 1px #222;
+}
+#chicken-menu p:nth-child(2) {
+	background-color: #99E3FA;
+	margin: 0 25px 20px 25px;
+	padding: 0 15px 10px 15px;
+}
+#beef-menu p:nth-child(1) {
+	font-size: 2em;
+	font-weight: bold;
+	color: yellow;
+	background-color: #99E3FA;
+	margin: 0 25px 0 25px;
+	padding: 0 15px 0 15px;
+	text-shadow: 1px 1px 1px #222;
+}
+#beef-menu p:nth-child(2) {
+	background-color: #99E3FA;
+	margin: 0 25px 20px 25px;
+	padding: 0 15px 10px 15px;
+}
+#sushi-menu p:nth-child(1) {
+	font-size: 2em;
+	font-weight: bold;
+	color: yellow;
+	background-color: #99E3FA;
+	margin: 0 25px 0 25px;
+	padding: 0 15px 0 15px;
+	text-shadow: 1px 1px 1px #222;
+}
+#sushi-menu p:nth-child(2) {
+	background-color: #99E3FA;
+	margin: 0 25px 20px 25px;
+	padding: 0 15px 10px 15px;
+}
