@@ -1,3 +1,19 @@
+// SOLUTION
+(function (window) {
+  var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
+  for (var i = 0; i < names.length; i++) {
+    var firstLetter = names[i].charAt(0).toLowerCase();
+    if (firstLetter === "j") {
+      byeSpeaker.speak(names[i]);
+    } else {
+      helloSpeaker.speak(names[i]);
+    }
+  }
+})(window);
+
+
+// **** INSTRUCTIONS ****
+
 // *******************************
 // START HERE IF YOU WANT A MORE CHALLENGING STARTING POINT FOR THIS ASSIGNMENT
 // *******************************
@@ -20,13 +36,11 @@ Hello Larry
 Hello Paula
 Hello Laura
 Good Bye Jim
-
 WARNING!!! WARNING!!!
 The code does NOT currently work! It is YOUR job to make it work
 as described in the requirements and the steps in order to complete this
 assignment.
 WARNING!!! WARNING!!!
-
 */
 
 // STEP 1:
@@ -40,7 +54,7 @@ WARNING!!! WARNING!!!
 // Loop over the names array and say either 'Hello' or "Good Bye"
 // using either the helloSpeaker's or byeSpeaker's 'speak' method.
 // See Lecture 50, part 1
-for (/* fill in parts of the 'for' loop to loop over names array */) {
+// for (/* fill in parts of the 'for' loop to loop over names array */) { //COLOCDO EM COMENTÁRIO POR AMF
 
   // STEP 11:
   // Retrieve the first letter of the current name in the loop.
@@ -56,18 +70,9 @@ for (/* fill in parts of the 'for' loop to loop over names array */) {
   // 'j'. If the same, call byeSpeaker's 'speak' method with the current name
   // in the loop. Otherwise, call helloSpeaker's 'speak' method with the current
   // name in the loop.
-  if (/* fill in condition here */) {
+  // if (/* fill in condition here */) { //COLOCDO EM COMENTÁRIO POR AMF
     // byeSpeaker.xxxx
-  } else {
+  // } else { //COLOCDO EM COMENTÁRIO POR AMF
     // helloSpeaker.xxxx
-  }
-}
-
-
-// SOLUÇÃO
-(function (window) {
-  var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
-  for (var i = 0; i < names.length; i++) {
-    Things[i]
-  }
-})(window);
+  // } //COLOCDO EM COMENTÁRIO POR AMF
+// } //COLOCDO EM COMENTÁRIO POR AMF
